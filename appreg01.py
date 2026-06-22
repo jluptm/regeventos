@@ -104,7 +104,7 @@ hr {
 col_space1, col_logo, col_space2 = st.columns([1, 2, 1])
 with col_logo:
     try:
-        st.image("assets/logo integridad cristiana seminario.png", width=220)
+        st.image("assets/logo integridad cristiana seminario.PNG", width=220)
     except FileNotFoundError:
         st.markdown("<h3 style='text-align: center;'>⛪</h3>", unsafe_allow_html=True)
 
